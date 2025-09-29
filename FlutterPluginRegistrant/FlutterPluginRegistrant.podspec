@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlutterPluginRegistrant'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Registers plugins with your Flutter app'
   s.description      = <<-DESC
 Depends on all your plugins, and provides a function to register them.
@@ -13,7 +13,7 @@ Depends on all your plugins, and provides a function to register them.
   s.license          = { :type => 'BSD' }
   s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
   s.ios.deployment_target = '13.0'
-  s.source = { :http => "https://github.com/mailtimeapp/passportme-sdk/tree/#{s.version}/FlutterPluginRegistrant" }
+  s.source = { :git => "https://github.com/mailtimeapp/passportme-sdk.git" }
   s.source_files =  "Classes", "Classes/**/*.{h,m}"
   s.public_header_files = './Classes/**/*.h'
   s.static_framework    = true
