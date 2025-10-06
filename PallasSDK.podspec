@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PallasSDK'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'Pallas SDK for iOS'
   s.description      = <<-DESC
   Pallas SDK for iOS
@@ -12,6 +12,5 @@ Pod::Spec.new do |s|
   s.source           = { :http => "https://github.com/mailtimeapp/pallas-ios-sdk/releases/download/#{s.version}/Frameworks.zip", :type => 'zip' }
 
   s.vendored_frameworks = '*.xcframework'
-
-  s.dependency 'Flutter'
+  s.static_framework = true ## test if works
 end
