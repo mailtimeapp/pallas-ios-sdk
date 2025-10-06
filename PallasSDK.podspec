@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mailtimeapp/pallas_sdk'
   s.license          = { :type => 'MIT' }
   s.author           = { 'Mailtime' => 'support@mailtime.app' }
-  s.platform         = :ios, '11.0'
+  s.platform         = :ios, '17.0'
   s.source           = { :http => "https://github.com/mailtimeapp/pallas-ios-sdk/releases/download/#{s.version}/Frameworks.zip", :type => 'zip' }
 
   s.vendored_frameworks = '*.xcframework'
