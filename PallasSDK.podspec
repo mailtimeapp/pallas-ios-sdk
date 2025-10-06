@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PallasSDK'
-  s.version          = '0.0.9'
+  s.version          = '0.0.10'
   s.summary          = 'Pallas SDK for iOS'
   s.description      = <<-DESC
   Pallas SDK for iOS
